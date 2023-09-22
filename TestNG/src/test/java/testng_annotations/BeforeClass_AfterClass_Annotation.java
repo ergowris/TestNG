@@ -14,47 +14,46 @@ public class BeforeClass_AfterClass_Annotation {
 	static WebDriver driver;
 
 	@BeforeClass
-	public void setUp() throws InterruptedException {
+	public void setUp() {
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		Thread.sleep(2000);
 
 	}
 
 	@Test
-	public void testLogin() throws InterruptedException {
-		
+	public void testLogin() {
+
 		WebElement username = driver.findElement(
 				By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input"));
 		username.sendKeys("Admin");
-		Thread.sleep(2000);
+
 		WebElement password = driver.findElement(
 				By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input"));
 		password.sendKeys("admin123");
-		Thread.sleep(2000);
+
 		WebElement login = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 		login.click();
-		Thread.sleep(2000);
+
 	}
 
 	@Test
-	public void testLogout() throws InterruptedException {
-		
+	public void testLogout() {
+
 		WebElement user_id = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p"));
 		user_id.click();
-		Thread.sleep(2000);
+
 		WebElement logout = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]"));
 		logout.click();
-		Thread.sleep(2000);
+
 	}
 
 	@AfterClass
-	public void tearDown() throws InterruptedException {
+	public void tearDown() {
 
 		driver.quit();
 	}
