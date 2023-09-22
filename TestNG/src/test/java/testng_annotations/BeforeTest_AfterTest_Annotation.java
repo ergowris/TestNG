@@ -24,37 +24,37 @@ public class BeforeTest_AfterTest_Annotation {
 	}
 
 	@Test
-	public void testLogin() throws InterruptedException {
+	public void testLogin() {
 
 		WebElement username = driver.findElement(
 				By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[1]/div/div[2]/input"));
 		username.sendKeys("Admin");
-		
+
 		WebElement password = driver.findElement(
 				By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[2]/div/div[2]/input"));
 		password.sendKeys("admin123");
-		
+
 		WebElement login = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 		login.click();
-		
+
 	}
 
 	@Test
-	public void testLogout() throws InterruptedException {
+	public void testLogout() {
 
 		WebElement user_id = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/span/p"));
 		user_id.click();
-		
+
 		WebElement logout = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/header/div[1]/div[2]/ul/li/ul/li[4]"));
 		logout.click();
-		
+
 	}
 
 	@AfterTest
-	public void tearDown() throws InterruptedException {
+	public void tearDown() {
 		driver.quit();
 	}
 }
