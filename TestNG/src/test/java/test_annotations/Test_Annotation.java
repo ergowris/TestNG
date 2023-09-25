@@ -7,8 +7,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+//script to test login page using @Test annotation
 
-//script to test login page using @test annotation
 public class Test_Annotation {
 
 	@Test
