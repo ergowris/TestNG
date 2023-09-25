@@ -31,6 +31,7 @@ public class Test_Annotation {
 		WebElement login = driver
 				.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div/div[1]/div/div[2]/div[2]/form/div[3]/button"));
 		login.click();
+		System.out.println(driver.getTitle());
 
 		driver.quit();
 
