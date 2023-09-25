@@ -5,11 +5,11 @@
     <classes>
       <class name="beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation">
         <methods>
-          <include name="testLogin"/>
+          <include name="testLogoutPage"/>
           <include name="tearDown"/>
+          <include name="testLoginPage"/>
           <include name="testAdminPage"/>
           <include name="setUp"/>
-          <include name="testLogout"/>
           <include name="testDashboardPage"/>
         </methods>
       </class> <!-- beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation -->
