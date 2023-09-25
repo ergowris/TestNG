@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test_Suite">
+	<test thread-count="5" name="Test_Valid_Login">
+		<classes>
+			<class
+				name="beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test_Invalid_Login">
+		<classes>
+			<class
+				name="beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

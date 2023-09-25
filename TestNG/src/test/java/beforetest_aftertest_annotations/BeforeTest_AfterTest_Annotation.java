@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.*;
 
-//script to test loginpage using valid&invalid details using @BeforeTest&@AfterTest
+//script to test login using valid&invalid details @BeforeTest&@AfterTest
 public class BeforeTest_AfterTest_Annotation {
 
 	WebDriver driver;
