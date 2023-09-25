@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="beforegroups_aftergroups_annotations.BeforeGroups_AfterGroups_Annotation">
+      <class name="testng_asserts.Hard_Assert">
         <methods>
-          <include name="testDashboard"/>
-          <include name="testInvalidLogin"/>
-          <include name="teardownAuthentication"/>
-          <include name="testValidLogin"/>
-          <include name="setupAuthentication"/>
+          <include name="testHardAssert"/>
         </methods>
-      </class> <!-- beforegroups_aftergroups_annotations.BeforeGroups_AfterGroups_Annotation -->
+      </class> <!-- testng_asserts.Hard_Assert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

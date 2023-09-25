@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 //script to perform hard assert using testng assert class methods
 public class Hard_Assert {
 
-	static WebDriver driver;
+	WebDriver driver;
 
 	@Test
 	public void testHardAssert() {
