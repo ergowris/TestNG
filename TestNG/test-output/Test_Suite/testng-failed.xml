@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_Logout_Page(failed)">
+    <classes>
+      <class name="beforetest_aftertest_annotations.Logout_Page">
+        <methods>
+          <include name="setUp"/>
+          <include name="testLogoutPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- beforetest_aftertest_annotations.Logout_Page -->
+    </classes>
+  </test> <!-- Test_Logout_Page(failed) -->
+</suite> <!-- Failed suite [Test_Suite] -->

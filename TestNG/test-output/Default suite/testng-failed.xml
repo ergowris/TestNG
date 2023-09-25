@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation">
+      <class name="beforegroups_aftergroups_annotations.BeforeGroups_AfterGroups_Annotation">
         <methods>
-          <include name="testLogoutPage"/>
-          <include name="tearDown"/>
-          <include name="testLoginPage"/>
-          <include name="testAdminPage"/>
-          <include name="setUp"/>
-          <include name="testDashboardPage"/>
+          <include name="testDashboard"/>
+          <include name="testInvalidLogin"/>
+          <include name="teardownAuthentication"/>
+          <include name="testValidLogin"/>
+          <include name="setupAuthentication"/>
         </methods>
-      </class> <!-- beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation -->
+      </class> <!-- beforegroups_aftergroups_annotations.BeforeGroups_AfterGroups_Annotation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

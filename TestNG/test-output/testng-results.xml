@@ -2,28 +2,32 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T15:50:10 IST" name="Default suite" finished-at="2023-09-25T15:50:25 IST" duration-ms="14724">
+  <suite started-at="2023-09-25T21:08:57 IST" name="Suite" finished-at="2023-09-25T21:09:19 IST" duration-ms="22325">
     <groups>
+      <group name="authentication">
+        <method signature="Login_Page.testInvalidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" name="testInvalidLogin" class="beforegroups_aftergroups_annotations.Login_Page"/>
+        <method signature="Login_Page.testValidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" name="testValidLogin" class="beforegroups_aftergroups_annotations.Login_Page"/>
+      </group> <!-- authentication -->
     </groups>
-    <test started-at="2023-09-25T15:50:10 IST" name="Default test" finished-at="2023-09-25T15:50:25 IST" duration-ms="14724">
-      <class name="beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation">
-        <test-method is-config="true" signature="login()[pri:0, instance:beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation@3023df74]" started-at="2023-09-25T15:50:10 IST" name="login" finished-at="2023-09-25T15:50:17 IST" duration-ms="7201" status="PASS">
+    <test started-at="2023-09-25T21:08:57 IST" name="Test" finished-at="2023-09-25T21:09:19 IST" duration-ms="22325">
+      <class name="beforegroups_aftergroups_annotations.Login_Page">
+        <test-method is-config="true" signature="setupAuthentication()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:08:57 IST" name="setupAuthentication" finished-at="2023-09-25T21:09:13 IST" duration-ms="16285" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="testAdminPage()[pri:0, instance:beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation@3023df74]" started-at="2023-09-25T15:50:17 IST" name="testAdminPage" finished-at="2023-09-25T15:50:21 IST" duration-ms="3893" status="PASS">
+        </test-method> <!-- setupAuthentication -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:09:13 IST" name="testInvalidLogin" finished-at="2023-09-25T21:09:16 IST" duration-ms="3344" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAdminPage -->
-        <test-method signature="testDashboardPage()[pri:0, instance:beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation@3023df74]" started-at="2023-09-25T15:50:21 IST" name="testDashboardPage" finished-at="2023-09-25T15:50:22 IST" duration-ms="916" status="PASS">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method signature="testValidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:09:16 IST" name="testValidLogin" finished-at="2023-09-25T21:09:19 IST" duration-ms="2324" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDashboardPage -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation@3023df74]" started-at="2023-09-25T15:50:22 IST" name="logout" finished-at="2023-09-25T15:50:25 IST" duration-ms="2668" status="PASS">
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="teardownAuthentication()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:09:19 IST" name="teardownAuthentication" finished-at="2023-09-25T21:09:19 IST" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logout -->
-      </class> <!-- beforeclass_afterclass_annotations.BeforeClass_AfterClass_Annotation -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- teardownAuthentication -->
+      </class> <!-- beforegroups_aftergroups_annotations.Login_Page -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

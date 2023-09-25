@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test_Suite_For_Login_Page]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_Login_Page(failed)">
+    <classes>
+      <class name="beforesuite_aftersuite_annotations.Test_Login_Page">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="testValidLogin"/>
+        </methods>
+      </class> <!-- beforesuite_aftersuite_annotations.Test_Login_Page -->
+    </classes>
+  </test> <!-- Test_Login_Page(failed) -->
+  <test thread-count="5" name="Test_ForgotPassword_Page(failed)">
+    <classes>
+      <class name="beforesuite_aftersuite_annotations.Test_Forgot_Password_Page">
+        <methods>
+          <include name="testForgotPassword"/>
+        </methods>
+      </class> <!-- beforesuite_aftersuite_annotations.Test_Forgot_Password_Page -->
+      <class name="beforesuite_aftersuite_annotations.Test_OrangeHRMInc_Home_Page">
+        <methods>
+          <include name="testOrangeHRM"/>
+        </methods>
+      </class> <!-- beforesuite_aftersuite_annotations.Test_OrangeHRMInc_Home_Page -->
+    </classes>
+  </test> <!-- Test_ForgotPassword_Page(failed) -->
+</suite> <!-- Failed suite [Test_Suite_For_Login_Page] -->
