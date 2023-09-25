@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T14:59:25 IST" name="Default suite" finished-at="2023-09-25T14:59:41 IST" duration-ms="15914">
+    <groups>
+    </groups>
+    <test started-at="2023-09-25T14:59:25 IST" name="Default test" finished-at="2023-09-25T14:59:41 IST" duration-ms="15914">
+      <class name="beforetest_aftertest_annotations.Test_Forgot_Password_Page">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:beforetest_aftertest_annotations.Test_Forgot_Password_Page@145f66e3]" started-at="2023-09-25T14:59:25 IST" name="setUp" finished-at="2023-09-25T14:59:39 IST" duration-ms="14449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgotPassword()[pri:0, instance:beforetest_aftertest_annotations.Test_Forgot_Password_Page@145f66e3]" started-at="2023-09-25T14:59:39 IST" name="testForgotPassword" finished-at="2023-09-25T14:59:41 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:beforetest_aftertest_annotations.Test_Forgot_Password_Page@145f66e3]" started-at="2023-09-25T14:59:41 IST" name="tearDown" finished-at="2023-09-25T14:59:41 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- beforetest_aftertest_annotations.Test_Forgot_Password_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
