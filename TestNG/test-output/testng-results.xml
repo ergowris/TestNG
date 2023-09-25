@@ -2,32 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-25T21:23:02 IST" name="Suite" finished-at="2023-09-25T21:23:22 IST" duration-ms="19333">
+  <suite started-at="2023-09-25T21:25:03 IST" name="Test_Suite" finished-at="2023-09-25T21:25:27 IST" duration-ms="24715">
     <groups>
-      <group name="authentication">
-        <method signature="Login_Page.testInvalidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" name="testInvalidLogin" class="beforegroups_aftergroups_annotations.Login_Page"/>
-        <method signature="Login_Page.testValidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" name="testValidLogin" class="beforegroups_aftergroups_annotations.Login_Page"/>
-      </group> <!-- authentication -->
     </groups>
-    <test started-at="2023-09-25T21:23:02 IST" name="Test" finished-at="2023-09-25T21:23:22 IST" duration-ms="19333">
-      <class name="beforegroups_aftergroups_annotations.Login_Page">
-        <test-method is-config="true" signature="setupAuthentication()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:23:02 IST" name="setupAuthentication" finished-at="2023-09-25T21:23:12 IST" duration-ms="9964" status="PASS">
+    <test started-at="2023-09-25T21:25:03 IST" name="Test_Valid_Login" finished-at="2023-09-25T21:25:16 IST" duration-ms="12988">
+      <class name="beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials@3023df74]" started-at="2023-09-25T21:25:03 IST" name="setUp" finished-at="2023-09-25T21:25:11 IST" duration-ms="8578" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupAuthentication -->
-        <test-method signature="testInvalidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:23:12 IST" name="testInvalidLogin" finished-at="2023-09-25T21:23:17 IST" duration-ms="5118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testInvalidLogin -->
-        <test-method signature="testValidLogin()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:23:18 IST" name="testValidLogin" finished-at="2023-09-25T21:23:21 IST" duration-ms="3365" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials@3023df74]" started-at="2023-09-25T21:25:11 IST" name="testValidLogin" finished-at="2023-09-25T21:25:15 IST" duration-ms="3428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidLogin -->
-        <test-method is-config="true" signature="teardownAuthentication()[pri:0, instance:beforegroups_aftergroups_annotations.Login_Page@1b7cc17c]" started-at="2023-09-25T21:23:21 IST" name="teardownAuthentication" finished-at="2023-09-25T21:23:22 IST" duration-ms="766" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials@3023df74]" started-at="2023-09-25T21:25:15 IST" name="tearDown" finished-at="2023-09-25T21:25:16 IST" duration-ms="901" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardownAuthentication -->
-      </class> <!-- beforegroups_aftergroups_annotations.Login_Page -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- beforetest_aftertest_annotations.Test_Login_Page_With_Valid_Crendentials -->
+    </test> <!-- Test_Valid_Login -->
+    <test started-at="2023-09-25T21:25:16 IST" name="Test_Invalid_Login" finished-at="2023-09-25T21:25:27 IST" duration-ms="11678">
+      <class name="beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials@3c46e67a]" started-at="2023-09-25T21:25:16 IST" name="setUp" finished-at="2023-09-25T21:25:23 IST" duration-ms="7110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInvalidLogin()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials@3c46e67a]" started-at="2023-09-25T21:25:23 IST" name="testInvalidLogin" finished-at="2023-09-25T21:25:27 IST" duration-ms="4023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials@3c46e67a]" started-at="2023-09-25T21:25:27 IST" name="tearDown" finished-at="2023-09-25T21:25:27 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- beforetest_aftertest_annotations.Test_Login_Page_With_InValid_Crendentials -->
+    </test> <!-- Test_Invalid_Login -->
+  </suite> <!-- Test_Suite -->
 </testng-results>
